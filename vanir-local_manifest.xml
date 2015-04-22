@@ -3,27 +3,37 @@
 
 <!--Removing certain projects-->
 
-  <remove-project name="AndroidNoob69/android_device_sony_rhine-common" />
+  <remove-project name="AndroidNoob69/android_device_sony_huashan" />
+  <remove-project name="android_device_sony_sirius" />
+  <remove-project name="android_device_sony_shinano-common" />
+  <remove-project name="android_device_sony_rhine-common" />
   <remove-project name="vendor_sony" />
   <remove-project name="device_sony_qcom-common" />
-  <remove-project name="device_qcom_common" />
+<!--  <remove-project name="device_qcom_common" />-->
   <remove-project name="android_device_sony_common" />
   <remove-project name="android_kernel_sony_msm8974" />
-  <remove-project name="AndroidNoob69/android_device_sony_msm8974-common" />
-  <remove-project name="device_sony_tsubasa" />
+  <remove-project name="android_device_sony_msm8974-common" />
+  <remove-project name="android_device_sony_tsubasa" />
   <remove-project name="android_device_sony_blue-common" />
-  <remove-project name="android_kernel_sony_msm8x60" />
+<!--  <remove-project name="android_kernel_sony_msm8x60" />-->
+  <remove-project name="android_hardware_sony_DASH" />
+  <remove-project name="android_device_sony_togari" />
+  <remove-project name="android_device_sony_mint" />
 
-  <project name="AndroidNoob69/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.0" />
-  <project name="crdroidandroid/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.0" />
-  <project name="AndroidNoob69/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-12.0" />
-  <project name="TheMuppets/proprietary_vendor_sony" path="vendor/sony" remote="github" revision="cm-12.0" />
-  <project name="CyanogenMod/android_device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="cm-12.0" />
-  <project name="VanirAOSP/device_sony_qcom-common" path="device/sony/qcom-common" remote="github" revision="L5" />
-  <project name="AndroidNoob69/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="cm-12.0" />
-  <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-12.0" />
-  <project name="CyanogenMod/android_device_sony_tsubasa" path="device/sony/tsubasa" remote="github" revision="cm-12.0" />
-  <project name="CyanogenMod/android_device_sony_blue-common" path="device/sony/blue-common" remote="github" revision="cm-12.0" />
-  <project name="CyanogenMod/android_kernel_sony_msm8x60" path="kernel/sony/msm8x60" remote="github" revision="cm-12.0" />
+  <project name="AndroidNoob69/android_device_sony_huashan" path="device/sony/huashan" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_kernel_sony_msm8974" path="kernel/sony/msm8974" remote="github" revision="cm-12.1" />
+ <!-- <project name="crdroidandroid/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-12.1" />-->
+  <project name="CyanogenMod/android_device_sony_common" path="device/sony/common" remote="github" revision="cm-12.1" />
+  <project name="VanirAOSP/vendor_sony" path="vendor/sony" remote="github" revision="L51" />
+  <project name="CyanogenMod/android_device_sony_shinano-common" path="device/sony/shinano-common" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_sony_sirius" path="device/sony/sirius" remote="github" revision="cm-12.1" /> 
+  <project name="CyanogenMod/android_device_sony_rhine-common" path="device/sony/rhine-common" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_sony_msm8974-common" path="device/sony/msm8974-common" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_hardware_sony_DASH" path="hardware/sony/DASH" remote="github" revision="cm-12.1" />
+<!--<project name="CyanogenMod/android_device_sony_tsubasa" path="device/sony/tsubasa" remote="github" revision="cm-12.1" />-->
+<!--<project name="CyanogenMod/android_device_sony_blue-common" path="device/sony/blue-common" remote="github" revision="cm-12.1" />-->
+  <project name="CyanogenMod/android_kernel_sony_msm8x60" path="kernel/sony/msm8x60" remote="github" revision="cm-12.1" />
+  <project name="CyanogenMod/android_device_sony_togari" path="device/sony/togari" remote="github" revision="cm-12.1" />
+<!--<project name="CyanogenMod/android_device_sony_mint" path="device/sony/mint" remote="github" revision="cm-12.1" />-->
 </manifest>
 
