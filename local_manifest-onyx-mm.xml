@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<!--Remove Projects!-->
+  <remove-project name="ashwinr64/android_device_oneplus_onyx" />
+  <remove-project name="vendor_oneplus" />
+
+<!--Device Trees!-->
+  <project name="AndroidNoob69/android_device_oneplus_onyx" path="device/oneplus/onyx" remote="github" revision="cm-13.0" />
+
+
+<!--Kernel Trees!-->
+  <project name="ashwinr64/android_kernel_oneplus_onyx" path="kernel/oneplus/onyx" remote="github" revision="cm-13.0" />
+
+
+<!--Vendor Trees~!-->
+  <project name="ashwinr64/android_vendor_oneplus_onyx" path="vendor/oneplus/onyx" remote="github" revision="cm-13.0" />
+
+
+<!--Device Specific!-->
+  <!--Onyx!-->
+
+</manifest>
+
+

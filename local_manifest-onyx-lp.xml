@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<!--Define remotes!-->
+  <remote name="bb"
+          fetch="https://bitbucket.org/" />
+
+<!--Remove Projects!-->
+  <remove-project name="android_kernel_oneplus_msm8974" />
+
+<!--Device Trees!-->
+  <project name="MasterAwesome/android_device_oneplus_onyx" path="device/oneplus/onyx" remote="github" revision="master" />
+
+
+<!--Kernel Trees!-->
+  <project name="MasterAwesome/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="5.1.1" />
+
+
+<!--Vendor Trees~!-->
+  <project name="AndroidNoob69/android_vendor_oneplus_onyx" path="vendor/oneplus/onyx" remote="github" revision="master" />
+
+
+<!--Device Specific!-->
+
+
+<!--Toolchains!-->
+<!--Uber!-->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9-uber" name="UBERTC/arm-eabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.2-uber" name="UBERTC/arm-eabi-5.2" remote="bb" revision="master" /> 
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-6.0-uber" name="UBERTC/arm-eabi-6.0" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9-uber" name="UBERTC/arm-linux-androideabi-4.9" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-5.2-uber" name="UBERTC/arm-linux-androideabi-5.2" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9-kernel" name="UBERTC/aarch64-linux-android-4.9-kernel" remote="bb" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.2-kernel" name="UBERTC/aarch64-linux-android-5.2-kernel" remote="bb" revision="master" />
+
+</manifest>
